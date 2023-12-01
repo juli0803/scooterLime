@@ -1,0 +1,111 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.bg-image {
+  background-image: url("/scooterLime/img/background.jpg");
+  height: 130%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  zoom: 80%;
+  margin-top: -2%;
+  padding: 5%;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  height: 40px;
+  background-color: #00dd07;
+  overflow: hidden;
+}
+
+.navbar button {
+  margin-top: 9px;
+  text-align: center;
+}
+
+.navbar button:hover {
+  background-color: #3e8e41;
+}
+
+.navbar button.active {
+  background-color: #1b5e20;
+}
+
+img.logo {
+  width: 200px;
+  height: auto;
+}
+
+.green {
+  color: #00dd07;
+}
+
+.scooter-status {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.scooter-status div {
+  margin-bottom: 5px;
+}
+
+.scooter-status p,
+li p {
+  font-family: auto;
+  font-weight: lighter;
+}
+
+.info-list {
+  margin-left: 10px;
+  padding-left: 0;
+}
+
+.list-square {
+  list-style-type: square;
+}
+
+.list-arrow {
+  list-style-type: "↦";
+}
+
+.charge-bar {
+  height: 20px;
+  width: 100%;
+}
+
+.charge-bar-inner-red {
+  height: 100%;
+  width: 20%;
+  background-color: #be4141;
+  border-radius: 4px;
+}
+.charge-bar-inner-orange {
+  height: 100%;
+  width: 40%;
+  background-color: #f5b453;
+  border-radius: 4px;
+}
+.charge-bar-inner-green {
+  height: 100%;
+  width: 80%;
+  background-color: #00dd07;
+  border-radius: 4px;
+}
